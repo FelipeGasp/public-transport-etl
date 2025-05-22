@@ -3,7 +3,7 @@
 
 Projeto criado com a finalidade de aprendizado sobre processos de ETL
 
-Possui pipeline de Extract Transform Load
+Possui pipeline de Extract Transform Load e uma API Rest para consultar os dados parseados da ETL
 
 
 Tecnologias usadas ->
