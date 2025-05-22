@@ -13,7 +13,7 @@ export default async function loadDataIntoDb(biggestDelayTime, totalAverageDelay
     })
     
     for (const data of delayPerLine) {
-        let delayLine = await prisma.delay_per_line.create({
+        await prisma.delay_per_line.create({
             data: {
                 line: data.linha,
                 time_of_delay: data.tempoAtraso,
